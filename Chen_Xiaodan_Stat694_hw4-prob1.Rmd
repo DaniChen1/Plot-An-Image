@@ -1,0 +1,16 @@
+---
+title: "Plot An Image"
+output: html_notebook
+---
+
+```{r}
+install.packages("imager")
+```
+```{r}
+library(imager)
+```
+
+```{r}
+puppy <-load.image('dog.png')
+plot(puppy)
+```
